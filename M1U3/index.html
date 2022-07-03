@@ -225,20 +225,22 @@
             <form action="#">
                 <p>
                     <label for="mail">E-mail:</label>
-                    <input type="email" name="mail">
+                    <input type="email" name="mail" placeholder="ejejmplo@ejemplo.com">
                 </p>
                 <p>
                     <label for="nom">Empresa:</label>
-                    <input type="text" name="empresa">
+                    <input type="text" name="empresa" placeholder="nombre...">
                 </p>
                 <p>
                     <label for="text">Pregunta:</label>
-                    <textarea name="pregunta"></textarea>
                     <select name="motivo" id="motivo">
                         <option value="duda-general">Duda General</option>
                         <option value="entrevista">Conocerte en entrevista</option>
                         <option value="propuesta">Envio de propuesta</option>
                     </select>
+                    <p>                  
+                    <textarea name="pregunta" cols="60" rows="5" placeholder="Escribir aquí..."></textarea>
+                </p> 
                 </p>
                 <p>
                     <input type="submit" value="Enviar">
