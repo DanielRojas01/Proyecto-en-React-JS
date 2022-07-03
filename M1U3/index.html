@@ -19,7 +19,7 @@
         </div>
     </header>
     <section id="inicio">
-        <img src="descarga.png" alt="Daniel">
+        <img src="imag/descarga.png" alt="Daniel">
         <h1>Daniel Gaston Rojas</h1>
         <a href="#redes-sociales"><button>Contactame</button></a>
     </section>
@@ -208,25 +208,46 @@
     <section id="redes-sociales">
         <div class="container">
             <h2>Daniel Rojas</h2>
-            <a href="https://www.linkedin.com/in/danielrojas01" target="-blank"><img src="linkedin.ico"
+            <a href="https://www.linkedin.com/in/danielrojas01" target="-blank"><img src="imag/linkedin.ico"
                     alt="linkedin"></a>
-            <a href="https://www.instagram.com/danyyunior/ " target="-blank"><img src="instagram.ico"
+            <a href="https://www.instagram.com/danyyunior/ " target="-blank"><img src="imag/instagram.ico"
                     alt="instagram"></a>
-            <a href="https://github.com/DanielRojas01" target="-blank"><img src="github.ico" alt="github"></a>
-            <a href="#consultas" target="-blank"><button>Preguntas</button></a>
+            <a href="https://github.com/DanielRojas01" target="-blank"><img src="imag/github.ico" alt="github"></a>
+            <p>
+                <a href="#consultas" target="-blank"><button>Preguntas</button></a>
+            </p>
         </div>
     </section>
 
-    <Section id="consultas">
+    <aside id="consultas">
+        <h2>Preguntas</h2>
         <div class="container">
             <form action="#">
-                <input type="E-mail:">
-                <input type="Empresa:">
-                <input type="Consulta:">
+                <p>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" name="mail">
+                </p>
+                <p>
+                    <label for="nom">Empresa:</label>
+                    <input type="text" name="empresa">
+                </p>
+                <p>
+                    <label for="text">Pregunta:</label>
+                    <textarea name="pregunta"></textarea>
+                    <select name="motivo" id="motivo">
+                        <option value="duda-general">Duda General</option>
+                        <option value="entrevista">Conocerte en entrevista</option>
+                        <option value="propuesta">Envio de propuesta</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </p>
             </form>
         </div>
 
-    </Section>
+    </aside>
 
     <footer>
         <div class="container">
