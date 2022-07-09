@@ -3,6 +3,7 @@
 body{
     margin: 0%;
     font-family:'Arial Narrow Bold', sans-serif;
+    background-color: rgb(247, 234, 231);
 }
 
 h1{font-size: 7vh;}
@@ -25,9 +26,9 @@ button:hover{background-color: rgb(255, 70, 0);}
 
 .container{
     max-width: 1400px;
-    margin: auto;
-    
+    margin: auto;    
 }
+
 /* EMPIEZA header */
 header{background-color: rgb(245,245,245);}
 
@@ -39,6 +40,7 @@ header .logo {
     color: rgb(220, 60, 0);
 }
 header .container {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,33 +72,75 @@ header a:hover{color: rgb(255, 70, 0);}
     background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("imag/inicio.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    
+    background-position: center center;  
 }
 #inicio p{
     padding: 0 30px;}
 /* TERMINA inicio */
 
 /* Empieza Datoas personales */
-#datos-personales{}
+#datos-personales{
+    display: flex;
+    height: 100vh;
+}
 /* Termina datos personales */
 
 /* educacion-y-formacion */
-#educacion-y-formacion{}
+#educacion-y-formacion{
+    height: 100vh;
+    display:inline-flex;}
 /* Termina educacion-y-formacion*/
 
 /* Termina experiencia-laboral */
-#experiencia-laboral{}
+#experiencia-laboral{
+    display:inline-flex;
+    height: 100vh;
+    display: flexbox;}
 /* Termina experiencia-laboral*/
 
 /* Termina conocimientos */
-#conocimientos{}
+#conocimientos{
+    padding-top: 50px;
+    height: 100vh;
+    display: flexbox;}
 /* Termina conocimientos */
 
 /* Termina redes-sociales */
-#redes-sociales{}
+#redes-sociales{
+    height: 100vh;
+    padding: 50px 10px;
+    display: flex;
+
+}
+#redes-sociales a{
+    padding: 30px 25px;
+    }
 /* Termina redes-sociales */
 
 /* Termina consultas */
-#consultas{}
+#consultas{
+    display: flex;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    padding: 50px;
+    background-color: rgb(36, 9, 9);
+}
+
 /* Termina consultas*/
+
+@media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+header .container{
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav{
+    flex-direction: row;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+}
