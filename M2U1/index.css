@@ -61,6 +61,7 @@ header a:hover{color: rgb(255, 70, 0);}
 /* TERMINA Header */
 
 /* EMPIEZA inicio */
+
 #inicio {
     display: flex;
     text-align: center;
@@ -79,7 +80,15 @@ header a:hover{color: rgb(255, 70, 0);}
 /* TERMINA inicio */
 
 /* Empieza Datoas personales */
+#datos-personales .container{
+    display: flex;
+}
+#datos-personales .imag-container{
+    width: 75%;
+    border-radius: 25px;
+}
 #datos-personales{
+    
     display: flex;
     height: 100vh;
 }
@@ -106,6 +115,14 @@ header a:hover{color: rgb(255, 70, 0);}
 /* Termina conocimientos */
 
 /* Termina redes-sociales */
+#redes-sociales .container{
+
+    
+}
+#redes-sociales .imag-container{
+    width: 8%;
+}
+
 #redes-sociales{
     height: 100vh;
     padding: 50px 10px;
