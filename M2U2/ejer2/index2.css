@@ -1,0 +1,41 @@
+p{
+    font-size: 25px;
+    color: white;
+}
+.masterbox{
+border: 1px solid rgb(0,0,0);
+background-color: rgb(167, 167, 169);
+height: 606px;
+width: 606px;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+}
+.box1{
+    border: 1px solid black;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box2{
+    border: 1px solid black;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3{
+    border: 1px solid black;
+    background-color:green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
