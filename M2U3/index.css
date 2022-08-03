@@ -48,25 +48,32 @@ aside {
 @media (max-width: 800px) {
 	
 	h1 {
-		margin-top: 0px;
+		margin-left: 20px;
+	}
+	p{
+		margin-right: 7%;
 	}
 
 	#contenedor {
-
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 	}
+	li{
+		padding: 7px;
+	}
 
 	nav {
+		width: 100%;
 		background: #efc558;
-		width:auto;
+		
 	}
 
-	li {
-		margin-bottom: 20px;
+	nav{
+		justify-content: center;
 	}
 
-	a {
+	nav ul li a {
 		color: #000;
 	}
 
@@ -74,14 +81,16 @@ aside {
 		background: #F1F2C0;
 		margin: 0;
 		padding: 20px;
-		width: 100vh;
+		width: 100%;
+		text-align: justify;
 		border: 1px solid rgb(0, 0, 0);
 	}
 
 	aside {
 		background: #CCC59E;
-		width: 100vh;
+		width: 100%;
 		padding: 17px;
+		text-align: justify;
 	}
 
 }
