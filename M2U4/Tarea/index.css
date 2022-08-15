@@ -1,0 +1,19 @@
+/* estyle general */
+.nav a{
+    color: inherit;
+    font-size: inherit;
+}
+
+/* section */
+/* NAV */
+.header{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("imag/inicio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.redes a:hover{
+    transition: 0.5s;
+    filter: opacity(0.5);
+}
