@@ -1,0 +1,155 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header {
+    background-color: rgb(47, 0, 255);
+    padding: 16px 0;
+}
+header h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+}
+nav{
+    background-color: rgb(2, 188, 255);
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    flex-grow: 1;
+}
+nav ul li a {
+    color:white;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a.activo {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color: blue;
+    font-weight: 400;
+}
+/*inicio*/
+.bienvenidos{
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.testimonios{
+    width: 25%;
+}
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+.bienvenidos p{
+    font-size: 20px;
+}
+.testimonio{
+    background-color: #ccc;
+    padding: 16px;
+}
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+.testimonio .autor{
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+}
+
+/*nosostros*/
+
+.historia p{
+    font-size: 12px;
+}
+
+.persona{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+}
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.persona h5, 
+.persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: blue;
+}
+.persona p{
+    color: #666;
+    font-size: 10px;
+}
+
+/*Servicios*/
+.servicio{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.servicio .info h4{
+   color: #2e64a1;
+   font-weight: 500;
+   font-style: italic;
+   border-bottom: 1px solid #2e64a1;
+   padding-bottom: 10px;
+}
+.servicio .info p{
+    font-size: 13px;
+}
+
+.servicio img{
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+}
