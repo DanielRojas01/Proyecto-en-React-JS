@@ -1,0 +1,229 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(247, 234, 231);
+}
+
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+}
+
+button {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 7px;
+  border: 1px solid rgba(138, 28, 0, 0.5);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 70, 0, 0.8);
+}
+button:hover {
+  background-color: rgb(255, 70, 0);
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* EMPIEZA header */
+header {
+  background-color: rgb(245, 245, 245);
+}
+
+header .logo {
+  margin: 0;
+  padding: 5px 30px;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: rgb(220, 60, 0);
+}
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+}
+header a {
+  padding: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(22, 22, 22, 0.8);
+}
+header a:hover {
+  color: rgb(255, 70, 0);
+}
+/* TERMINA Header */
+
+/* EMPIEZA inicio */
+
+#inicio {
+  display: flex;
+  text-align: center;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/yo/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#inicio p {
+  padding: 0 30px;
+}
+/* TERMINA inicio */
+
+/* Empieza Datoas personales */
+#datos-personales .container {
+  display: flex;
+}
+#datos-personales .imag-container {
+  width: 75%;
+  border-radius: 50%;
+}
+#datos-personales {
+  display: flex;
+  height: 100vh;
+}
+/* Termina datos personales */
+
+/* educacion-y-formacion */
+
+#educacion-y-formacion {
+  background: linear-gradient(
+    to top,
+    rgba(255, 133, 2, 0.1),
+    rgba(50, 22, 0, 0.15)
+  );
+  height: 100vh;
+  display: flex;
+  width: 100%;
+}
+/* Termina educacion-y-formacion*/
+
+/* Termina experiencia-laboral */
+#experiencia-laboral {
+  background: linear-gradient(
+    to top,
+    rgba(255, 133, 2, 0.1),
+    rgba(50, 22, 0, 0.15)
+  );
+  display: flex;
+  height: 100vh;
+}
+/* Termina experiencia-laboral*/
+
+/* Termina conocimientos */
+#conocimientos {
+  column-count: 2;
+
+  padding: 10%;
+  height: 100vh;
+}
+/* Termina conocimientos */
+
+/* Termina redes-sociales */
+.redes-sociales .imag-container {
+  width: 50%;
+}
+.redes-sociales {
+  margin-top: 18%;
+}
+.preguntas {
+  margin-top: 10%;
+}
+
+.redes-sociales a {
+  display: inline-flex;
+
+  justify-content: space-around;
+}
+/* Termina redes-sociales */
+
+/* Termina consultas */
+
+#consultas {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+
+  height: 100vh;
+  padding: 50px;
+  background-color: rgb(36, 9, 9);
+}
+#consultas p label {
+  min-width: 100px;
+  align-items: center;
+}
+
+#consultas p input,
+#consultas p textarea,
+#consultas p select,
+#consultas p option {
+  width: 100%;
+  background: #ddd;
+  border-radius: 5px;
+  border: 1px solid #999;
+  font-size: 14px;
+  padding: 6px 10px;
+}
+#consultas textarea {
+  resize: none;
+  height: 150px;
+}
+#consultas input[type="submit"],
+#consultas input[type="reset"] {
+  background: rgb(220, 60, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 16px;
+  padding: 6px 20px;
+  width: auto;
+  position: relative;
+  left: 6.1rem;
+  cursor: pointer;
+}
+#consultas input[type="submit"]:hover,
+#consultas input[type="reset"]:hover {
+  background-color: rgb(255, 70, 0);
+}
+
+/* Termina consultas*/
+
+@media (min-width: 720px) {
+  header {
+    position: fixed;
+    width: 100%;
+  }
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  header nav {
+    flex-direction: row;
+    padding-right: 10px;
+    padding-bottom: 0px;
+  }
+}
