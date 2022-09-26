@@ -67,7 +67,8 @@ header a {
   font-weight: bold;
   color: rgba(22, 22, 22, 0.8);
 }
-header a:hover {
+header a:hover,
+header a.active {
   color: rgb(255, 70, 0);
 }
 /* TERMINA Header */
@@ -171,7 +172,7 @@ header a:hover {
 
   height: 100vh;
   padding: 50px;
-  background-color: rgb(36, 9, 9);
+  background-color: rgba(36, 15, 9, 0.774);
 }
 #consultas p label {
   min-width: 100px;
@@ -226,4 +227,8 @@ header a:hover {
     padding-right: 10px;
     padding-bottom: 0px;
   }
+}
+
+footer{
+    background-color: rgb(247, 234, 231);
 }
