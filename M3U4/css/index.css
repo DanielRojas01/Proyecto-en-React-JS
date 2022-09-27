@@ -1,0 +1,25 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color:aliceblue;
+  }
+.ejercicios{
+padding: 50px
+}
+.cajas .caja{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.cajas{
+    display: flex;
+    justify-content: space-around;
+}
+.alternar{
+    background: lightcoral;
+}
+.alternar .activo{
+    background: brown;
+
+}
