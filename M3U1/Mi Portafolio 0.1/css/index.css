@@ -85,7 +85,7 @@ header a.active {
   height: 100vh;
 
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("img/yo/fondo.jpg");
+    url("../img/yo/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
