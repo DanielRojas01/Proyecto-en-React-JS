@@ -4,22 +4,33 @@ body {
     background-color:aliceblue;
   }
 .ejercicios{
-padding: 50px
+padding: 100px;
 }
-.cajas .caja{
+
+/*ejercicio 1*/
+.caja{
     border: 1px solid black;
     height: 100px;
     width: 100px;
     text-align: center;
+    cursor: pointer;
 }
 .cajas{
     display: flex;
     justify-content: space-around;
 }
-.alternar{
-    background: lightcoral;
-}
-.alternar .activo{
-    background: brown;
 
+.verde{
+    background: green;
+}
+.rojo{
+    background: red;
+}
+.azul{
+    background: blue;
+}
+.caja,
+textarea,
+button{
+    border-radius: 5px;
 }
