@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.holder{
+  max-width: 960px;
+  margin: 0 auto;
+}
+h2{
+  color: blue;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Servicios*/
+.servicio{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0;
   display: flex;
-  flex-direction: column;
+  gap: 32px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.servicio .info h4{
+ color: #2e64a1;
+ font-weight: 500;
+ font-style: italic;
+ border-bottom: 1px solid #2e64a1;
+ padding-bottom: 10px;
+}
+.servicio .info p{
+  font-size: 13px;
 }
 
-.App-link {
-  color: #61dafb;
+.servicio img{
+  border-radius: 13px;
+  display: block;
+  max-width: 225px;
+}
+.servicio:nth-child(even) {
+  flex-direction: row-reverse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Galeria*/
+
+.galeria{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
+
+.galeria img{
+  width: 18%;
+  border: 1px solid #ddd;
+  padding: 0.3em;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  margin-right: 2%;
+}
+

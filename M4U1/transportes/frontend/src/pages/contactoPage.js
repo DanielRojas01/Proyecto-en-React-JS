@@ -1,5 +1,6 @@
 
 import React from "react";
+import '../styles/components/pages/contactoPage.css';
 const contactoPage = (props) => {
     return(
       <main class="holder contacto">
