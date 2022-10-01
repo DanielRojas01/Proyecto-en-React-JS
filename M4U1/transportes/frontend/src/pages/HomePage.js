@@ -7,7 +7,7 @@ const HomePage = (props) => {
         <img src="img/home/img01.jpg" alt="avion" />
       </div>
       <div class="columnas">
-        <section class="bienvenidos">
+        <div class="bienvenidos">
           <h2>Bienvenidos</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam,
@@ -15,14 +15,14 @@ const HomePage = (props) => {
             optio. Esse obcaecati temporibus quasi! Culpa at itaque reiciendis
             eum dolorum optio.
           </p>
-        </section>
-        <section class="Testimonios">
+        </div>
+        <div class="Testimonios">
             <h2>Testimonios</h2>
             <div class="testimonio">
                 <span class="cita">Simple Excelente</span>
                 <span class="autor">Juan Gomez</span>
             </div>
-        </section>
+        </div>
       </div>
     </main>
     );

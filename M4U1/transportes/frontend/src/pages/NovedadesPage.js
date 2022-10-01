@@ -13,7 +13,7 @@ const NovedadesPage = (props) => {
         ratione maiores officiis fuga sapiente, quis ullam laborum maxime
         illum fugit aliquid.
       </p>
-      <hr>
+     
     </div>
     <div class="novedades">
       <h3>Titulo</h3>
@@ -24,7 +24,7 @@ const NovedadesPage = (props) => {
         ratione maiores officiis fuga sapiente, quis ullam laborum maxime
         illum fugit aliquid.
       </p>
-      <hr>
+     
     </div>
     <div class="novedades">
       <h3>Titulo</h3>
@@ -35,7 +35,7 @@ const NovedadesPage = (props) => {
         ratione maiores officiis fuga sapiente, quis ullam laborum maxime
         illum fugit aliquid.
       </p>
-      <hr>
+      
     </div>
     <div class="novedades">
       <h3>Titulo</h3>
@@ -46,7 +46,7 @@ const NovedadesPage = (props) => {
         ratione maiores officiis fuga sapiente, quis ullam laborum maxime
         illum fugit aliquid.
       </p>
-      <hr>
+      
     </div>
   </main>);
 }

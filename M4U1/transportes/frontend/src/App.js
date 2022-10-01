@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/layout/Header';
-import Footer from './components/layout/Footer';
-import Nav from './components/layout/Nav';
+import Header from '../src/components/layout/Header';
+import Footer from '../src/components/layout/Footer';
+import Nav from '../src/components/layout/Nav';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Nav/>
-      <Footer/>
+      <Header></Header>
+      <Nav></Nav>
+      <Footer></Footer>
     </div>
   );
 }

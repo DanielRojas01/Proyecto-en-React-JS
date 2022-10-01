@@ -1,9 +1,9 @@
 
 import React from 'react-router-dom';
-import '../../styles/components/layout/Nav.css';
+
 const Nav =(props) =>{
     return(    
-      <nav>
+      <div>
         <div>
             <ul>
                 <li><link to="/">Home</link></li>
@@ -14,6 +14,6 @@ const Nav =(props) =>{
                 <li><link to="/contacto">Contacto</link></li>
             </ul>
         </div>
-      </nav>);
+      </div>);
 }
 export default Nav;

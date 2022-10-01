@@ -1,0 +1,32 @@
+div {
+    background-color: rgb(245, 245, 245);
+  }
+  
+.logo {
+    margin: 0;
+    padding: 5px 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(220, 60, 0);
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+li {
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(22, 22, 22, 0.8);
+  }
+li:hover,
+li.active {
+    color: rgb(255, 70, 0);
+  }
