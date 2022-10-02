@@ -1,0 +1,67 @@
+.consultas{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-align: center;
+    background-color: rgb(255, 244, 241);
+    padding: 5%;
+    
+}
+.redes-sociales .imag-container {
+    width: 50%;
+  }
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding-right: 2%;
+  }
+.redes-sociales a {
+    display: inline-flex; 
+    justify-content: space-around;
+  }
+  /* Termina redes-sociales */
+  
+  /* Termina consultas */
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.preguntas {
+    padding-left: 2%;
+    color: rgb(2, 2, 2); 
+
+  }
+  .preguntas p label {
+    min-width: 100px;
+  }
+  .preguntas p input,
+  .preguntas p textarea,
+  .preguntas p select,
+  .preguntas p option {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+  .preguntas textarea {
+    resize: none;
+    height: 150px;
+  }
+  .preguntas input[type="submit"]
+{
+    background: rgb(155, 63, 32);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 16px;
+    padding: 6px 20px;
+    width: auto;
+    cursor: pointer;
+  }
+  .preguntas input[type="submit"]:hover,
+  .preguntas input[type="reset"]:hover {
+    background-color: rgb(255, 70, 0);
+  } 

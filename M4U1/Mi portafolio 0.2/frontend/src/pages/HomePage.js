@@ -1,10 +1,10 @@
 import React from 'react';
+import "../styles/pages/HomePage.css"
 const HomePage = (props) => {
     return (
-        <div className='inicio'>
+        <div class="inicio">
             <h1>Daniel Gaston Rojas</h1>
-            <a href="#redes-sociales"><button>Contactame</button></a>
-            <h3>Test de personalidad</h3>
+            
             <p>
                 Daniel es un individuo lógico y sistemático. Es un pensador preciso y un asiduo trabajador que prefiere
                 seguir procedimientos tanto en su vida laboral como privada. Es perfeccionista y no quiere cometer

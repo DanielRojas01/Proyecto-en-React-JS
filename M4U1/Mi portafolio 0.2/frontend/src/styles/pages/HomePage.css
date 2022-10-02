@@ -5,14 +5,14 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 1000px;;
   
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../img/yo/fondo.jpg");
+    url("../../../public/imgHome/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
 .inicio p {
-    padding: 0 30px;
+    padding: 0 70px;
   }

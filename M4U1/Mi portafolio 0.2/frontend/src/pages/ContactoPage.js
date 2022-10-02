@@ -1,15 +1,18 @@
 import React from 'react';
+import '../styles/pages/ContactoPage.css'
 const ContactoPage = (props) =>{    
 return (
-    <div className="consultas">
+    <div class="consultas">
         <div class="redes-sociales">
             <h2>Daniel Rojas</h2>
+            <div>
             <a href="https://www.linkedin.com/in/danielrojas01" target="-blank">
             <img class="imag-container" src="imgcontac/linkedin.ico" alt="linkedin" id="ico"/></a>
             <a href="https://www.instagram.com/danyyunior/ " target="-blank">
             <img class="imag-container" src="imgcontac/instagram.ico" alt="instagram" id="ico"/></a>
             <a href="https://github.com/DanielRojas01" target="-blank">
             <img class="imag-container" src="imgcontac/github.ico" alt="github" id="ico"/></a>
+            </div>
         </div>
 
         <div class="preguntas">

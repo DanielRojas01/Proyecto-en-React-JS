@@ -1,7 +1,8 @@
 import React from 'react';
+import "../styles/pages/ServiciosPage.css"
 const ServiciosPage = (props) => {
     return (
-        <div>
+        <div class="servicios">
             <h2>Servicios</h2>
             <div class="servicio">
                 <img src="img2/fotoReact.jpg" alt="react" />
