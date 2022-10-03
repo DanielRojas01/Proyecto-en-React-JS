@@ -4,6 +4,11 @@ const ServiciosPage = (props) => {
     return (
         <div class="servicios">
             <h2>Servicios</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                        omnis sed tenetur officia autem laudantium numquam voluptas.
+                        officia autem laudantium numquam voluptas.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                        omnis sed tenetur officia autem laudantium numquam voluptas.
+                        officia autem laudantium numquam voluptas.</p>
             <div class="servicio">
                 <img src="img2/fotoReact.jpg" alt="react" />
                 <div class="info">
