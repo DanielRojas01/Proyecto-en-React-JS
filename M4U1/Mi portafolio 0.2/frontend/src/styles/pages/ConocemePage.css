@@ -1,0 +1,21 @@
+.conoceme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.datos-personales{
+    padding: 100px;
+    display: flex;
+    justify-content:space-around;
+}
+.imag-container{
+    max-width: 400px;
+    border-radius: 50%;
+}
+.texto{
+    margin-left: 20px;
+}
+.foto{
+    margin-right: 20px;
+}

@@ -5,7 +5,7 @@ const Nav = (props) => {
     <nav>
       <div class="logo">
         <Link to="/">
-          <img src="img1/logo2.png" width="100" alt="logo" />
+          <img class="color" src="img1/logochip.svg" width="60" alt="logo" />
         </Link>
       </div>
       <div class="navegacion">

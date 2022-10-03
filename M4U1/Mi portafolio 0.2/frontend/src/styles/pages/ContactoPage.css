@@ -5,10 +5,12 @@
     text-align: center;
     background-color: rgb(255, 244, 241);
     padding: 5%;
+    height: 900px;
     
 }
 .redes-sociales .imag-container {
     width: 50%;
+    border-radius: 0%;
   }
 .redes-sociales {
     display: flex;
@@ -19,6 +21,7 @@
 .redes-sociales a {
     display: inline-flex; 
     justify-content: space-around;
+    padding: 0;
   }
   /* Termina redes-sociales */
   
@@ -33,9 +36,7 @@
     color: rgb(2, 2, 2); 
 
   }
-  .preguntas p label {
-    min-width: 100px;
-  }
+
   .preguntas p input,
   .preguntas p textarea,
   .preguntas p select,

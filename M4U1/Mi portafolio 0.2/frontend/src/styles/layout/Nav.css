@@ -1,10 +1,13 @@
 nav {
-    background-color: rgba(100, 71, 71, 0.295);
+    background:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url("../../../public/imgHome/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     display: flex;
     flex-direction: row;
     justify-content:space-around;   
     padding: 20px 0;
-    height: 100px;
+    height: 50px;
   }
   
 nav .navegacion{
@@ -12,13 +15,15 @@ nav .navegacion{
   } 
 
 a{
-    padding: 30px 15px;
+    padding: 15px 15px;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.5em;
-    color: rgb(88, 50, 0);
+    font-size: 15px;
+    color: #361800;
+
   }
 a:hover,
 a.active {
-    color: rgb(255, 70, 0);
+  
+    color: rgb(172, 49, 0);
   }
