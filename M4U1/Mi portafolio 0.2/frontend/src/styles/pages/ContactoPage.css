@@ -37,10 +37,10 @@
 
   }
 
-  .preguntas p input,
-  .preguntas p textarea,
-  .preguntas p select,
-  .preguntas p option {
+  .preguntas  input,
+  .preguntas  textarea,
+  .preguntas  select,
+  .preguntas  option {
     width: 100%;
     background: #ddd;
     border-radius: 5px;

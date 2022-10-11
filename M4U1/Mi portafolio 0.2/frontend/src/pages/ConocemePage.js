@@ -2,16 +2,16 @@ import React from "react";
 import "../styles/pages/ConocemePage.css";
 const ConocemePage = (props) => {
   return (
-    <div class="conoceme">
-        <div class="datos-personales">
-          <div class="foto">
+    <div className="conoceme">
+        <div className="datos-personales">
+          <div className="foto">
             <img
-              class="imag-container"
+              className="imag-container"
               src="imgconoceme/perfil.png"
               alt="Daniel"
             />
           </div>
-          <div class="texto">
+          <div className="texto">
             <h2>Dato Personales</h2>
             <ul>
               <li>Apellido y Nombre: Rojas Daniel Gastón</li>
@@ -40,7 +40,7 @@ const ConocemePage = (props) => {
 
 
 
-        <div class="educacion-y-formacion">
+        <div className="educacion-y-formacion">
           <h2>Educación y Formación</h2>
           <ul>
             <li>
@@ -88,7 +88,7 @@ const ConocemePage = (props) => {
 
 
 
-        <div class="conocimientos">
+        <div className="conocimientos">
           <h2>Conocimiento</h2>
           <ul>
             <li>
@@ -155,7 +155,7 @@ const ConocemePage = (props) => {
 
 
 
-        <div class="experiencia-laboral">
+        <div className="experiencia-laboral">
           <h2>Experiencia Laboral</h2>
           <ul>
             <li>Tesam Argentina S.A, desde 2010 - 2011</li>

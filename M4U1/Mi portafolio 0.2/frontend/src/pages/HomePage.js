@@ -3,7 +3,7 @@ import "../styles/pages/HomePage.css";
 
 const HomePage = (props) => {
     return (
-        <div class="inicio">
+        <div className="inicio">
             <h1>Daniel Gaston Rojas</h1>
             
             <p>

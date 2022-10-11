@@ -2,22 +2,22 @@ import React from 'react';
 import '../styles/pages/ContactoPage.css'
 const ContactoPage = (props) =>{    
 return (
-    <div class="consultas">
-        <div class="redes-sociales">
+    <div className="consultas">
+        <div className="redes-sociales">
             <h2>Daniel Rojas</h2>
             <div>
             <a href="https://www.linkedin.com/in/danielrojas01" target="-blank">
-            <img class="imag-container" src="imgcontac/linkedin.ico" alt="linkedin" id="ico"/></a>
+            <img className="imag-container" src="imgcontac/linkedin.ico" alt="linkedin" id="ico"/></a>
             <a href="https://www.instagram.com/danyyunior/ " target="-blank">
-            <img class="imag-container" src="imgcontac/instagram.ico" alt="instagram" id="ico"/></a>
+            <img className="imag-container" src="imgcontac/instagram.ico" alt="instagram" id="ico"/></a>
             <a href="https://github.com/DanielRojas01" target="-blank">
-            <img class="imag-container" src="imgcontac/github.ico" alt="github" id="ico"/></a>
+            <img className="imag-container" src="imgcontac/github.ico" alt="github" id="ico"/></a>
             </div>
         </div>
 
-        <div class="preguntas">
+        <div className="preguntas">
             <h2>Preguntas</h2>
-            <form action="" method="" class="formulario">
+            <form action="" method="" className="formulario">
                 <p>
                     <label for="mail">E-mail:</label>
                     <input type="email" name="mail" placeholder="ejejmplo@ejemplo.com" />
@@ -37,7 +37,7 @@ return (
                         <textarea name="pregunta" cols="40" rows="10" placeholder="Escribir aquí..."></textarea>
                     </p>
                 </p>
-                <p class="acciones">
+                <p className="acciones">
                     <input type="submit" value="Enviar" />
                 </p>
             </form>
